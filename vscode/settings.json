@@ -1,0 +1,209 @@
+{
+  "update.mode": "manual",
+  "extensions.autoUpdate": "off",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.venv/**": true,
+    "**/*.pyc": true,
+    "**/CVS": true
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/.next": true,
+    "**/.venv": true
+  },
+  "files.watcherExclude": {
+    "**/.next/**": true,
+    "**/.venv/**": true,
+    "**/node_modules/**": true,
+  },
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootPath}",
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": true,
+  "editor.minimap.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "explorer.autoReveal": false,
+  "window.newWindowDimensions": "offset",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+  },
+  "remote.extensionKind": {
+    "ms-azuretools.vscode-containers": "workspace"
+  },
+  "terminal.integrated.scrollback": 4000,
+  "aws.telemetry": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    ".env": "shellscript",
+    ".coveragerc": "ini",
+    "config": "ini"
+  },
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "redhat.telemetry.enabled": true,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "rest-client.showResponseInDifferentTab": true,
+  "json.maxItemsComputed": 100,
+  "yaml.customTags": [
+    "!reference sequence",
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "yaml.schemas": {},
+  "json.schemas": [],
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "testing.automaticallyOpenPeekView": "never",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.linkedEditing": true,
+  "git.ignoreMissingGitWarning": true,
+  "rest-client.rememberCookiesForSubsequentRequests": false,
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.unicodeHighlight.allowedCharacters": {
+    "‎": true
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "search.searchEditor.reusePriorSearchConfiguration": true,
+  "black-formatter.importStrategy": "fromEnvironment",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.openRepositoryInParentFolders": "never",
+  "rest-client.followredirect": false,
+  "python.terminal.activateEnvironment": false,
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "claudeCode.preferredLocation": "panel",
+  "containers.images.description": [
+    "CreatedTime",
+    "Size"
+  ],
+  "containers.composeBuild": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "chatgpt.composerEnterBehavior": "cmdIfMultiline",
+  "claudeCode.selectedModel": "opus[1m]",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": [
+        "-l"
+      ],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": [
+        "-l"
+      ]
+    },
+    "fish": {
+      "path": "fish",
+      "args": [
+        "-l"
+      ]
+    },
+    "tmux": {
+      "path": "tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "[csv]": {
+    "editor.inlayHints.maximumLength": 0
+  },
+  "claudeCode.useCtrlEnterToSend": true,
+  "claudeCode.enableNewConversationShortcut": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.reduceMotion": "on",
+  "workbench.localHistory.maxFileEntries": 20,
+  "workbench.localHistory.maxFileSize": 256,
+  "yaml.schemaStore.enable": false,
+  "files.insertFinalNewline": true,
+  "markdown.preview.scrollEditorWithPreview": false,
+  "markdown-mermaid.darkModeTheme": "dark",
+  "terminal.external.osxExec": "iTerm.app",
+    "scm.alwaysShowRepositories": true,
+  "scm.repositories.selectionMode": "single",
+
+  "git.detectWorktrees": true,
+  "git.detectWorktreesLimit": 20,
+
+  "git.pruneOnFetch": true,
+
+  "git.confirmSync": true,
+
+  "scm.graph.showIncomingChanges": true,
+  "scm.graph.showOutgoingChanges": true,
+
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "git.allowForcePush": true,
+}

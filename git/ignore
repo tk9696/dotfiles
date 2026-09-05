@@ -1,0 +1,16 @@
+# ~/.config/git/ignore — 全リポジトリ共通の除外 (旧 .gitignore_global と統合)
+*~
+.DS_Store
+
+# エディタ / devcontainer のローカル設定
+.vscode/*
+!.vscode/extensions.json
+.devcontainer/*
+
+# direnv
+.envrc
+/.local/
+
+# Claude Code のローカル設定
+**/.claude/.cc-writes/
+**/.claude/settings.local.json

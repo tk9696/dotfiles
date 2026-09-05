@@ -1,0 +1,13 @@
+# ~/.gitconfig.local にコピーして編集する (リポジトリには入れない)
+[user]
+	name = tk9696
+	email = tk9696@example.com
+
+# 別アカウントで作業するディレクトリがある場合の例
+# [includeIf "gitdir:~/privateworks/"]
+# 	path = ~/.gitconfig.private
+
+# self-hosted GitLab (ホスト名はリポジトリに入れない)
+# [credential "https://gitlab.example.com"]
+# 	helper =
+# 	helper = !glab auth git-credential

@@ -1,0 +1,10 @@
+# ~/.config/mise/config.toml — グローバルのランタイム
+# プロジェクトごとの .node-version / .python-version / .ruby-version / .terraform-version も mise が読む
+
+[settings]
+idiomatic_version_file_enable_tools = ["node", "python", "ruby", "terraform"]
+
+[tools]
+node = "22"
+python = "3.13"
+terraform = "1.15"

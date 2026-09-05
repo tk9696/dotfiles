@@ -1,0 +1,66 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "markdown_preview": {
+    "limit_content_width": false,
+    "max_width": 809.0
+  },
+  "markdown_preview_font_size": 15.0,
+  "soft_wrap": "prefer_line",
+  "disable_ai": false,
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "mode": "auto"
+      },
+      "type": "registry"
+    }
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "terminal": {
+    "max_scroll_history_lines": 4000
+  },
+  "project_panel": {
+    "auto_reveal_entries": false
+  },
+  "base_keymap": "VSCode",
+  "preview_tabs": {
+    "enabled": false
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "file_types": {
+    "ini": [
+      ".coveragerc",
+      "config"
+    ],
+    "shellscript": [
+      ".env"
+    ]
+  },
+  "linked_edits": true,
+  "show_whitespaces": "boundary",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Ayu Light",
+    "dark": "Ayu Dark"
+  },
+}
